@@ -144,13 +144,13 @@
     "Environment": "Windows 8.1 x64"
 }
 ```  
-16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
     В поле `Commit changes` написать Update bug_report.json  
     Нажать на кнопку `Commit new file`  
     ![Commit new file](https://github.com/bryack/JSON/blob/main/commit_new_file.png?raw=true)  
 
 17. Синхронизировать внешний и локальный репозиторий JSON
-    `git pull`
-    Synchronize repositories
-    Esc `:wq` Enter
+    `git pull`  
+    Synchronize repositories  
+    Esc `:wq` Enter  
     `git push`
