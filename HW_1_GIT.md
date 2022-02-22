@@ -1,4 +1,4 @@
-###### 1. Создать внешний репозиторий c названием JSON.
+1. Создать внешний репозиторий c названием JSON.
 
     Заходим на сайт [github](https://github.com/)  
     Нажимаем на кнопку   
@@ -7,7 +7,7 @@
     Нажимаем на кнопку  
     ![Create repository](https://github.com/bryack/JSON/blob/main/cr_rep.png?raw=true)
 
-###### 2. Клонировать репозиторий JSON на локальный компьютер.
+2. Клонировать репозиторий JSON на локальный компьютер.
 
     Открываю папку D:\YandexDisk\QA\Git
     Кликаю правой кнопкой мыши в окне папки
@@ -18,4 +18,14 @@
     В терминале прописываю команду для клонирования репозитория и ссылку HTTPS 
     `git clone https://github.com/bryack/JSON.git`
 
-###### 3. Внутри локального JSON создать файл “new.json”.
+3. Внутри локального JSON создать файл “new.json”.
+    ``` bash
+    cd JSON
+    touch new.json
+    ```
+
+4. Добавить файл под гит.
+`git add new.json`
+
+5. Закоммитить файл.
+`git commit -m "Add file new.json"`
