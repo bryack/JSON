@@ -64,7 +64,7 @@
         "country_to_visit": "USA"
     }
     ```
-    `:wq` `Enter`
+    Esc `:wq` Enter
 
 11. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON  
     `vim skills.json` `i`  
@@ -101,7 +101,7 @@
         }
     } 
     ```
-    `:wq` `Enter`  
+    Esc `:wq` Enter  
 
 
 12. Отправить сразу 2 файла на внешний репозиторий.  
@@ -119,4 +119,38 @@
     В поле `name` написать bug_report.json  
     В поле `Commit new file` написать Create bug_report.json  
     Нажать на кнопку `Commit new file`  
-    ![Commit new file]()
+    ![Commit new file](https://github.com/bryack/JSON/blob/main/commit_new_file.png?raw=true)  
+
+15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+Нажать редактировать файл
+``` json
+{
+    "Summary": "Main page: Button 'Login' doesn't click",
+    "Description": {
+        "STR": {
+                "1.": "Open the Main page",
+                "2.": "Click the 'Login' button"
+                },
+        "Result": "Button 'Login' doesn't click",
+        "Expected result": "Button 'Login' is clicked according to requirement №1",
+                    },
+    "Project": "My Site",
+    "Component": "Login",
+    "Build": "1.0"
+    "Severity": "Blocker",
+    "Priority": "High",
+    "Author": "Anna Nurgaleeva",
+    "Sign to": "Developer",
+    "Environment": "Windows 8.1 x64"
+}
+```  
+16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+    В поле `Commit changes` написать Update bug_report.json  
+    Нажать на кнопку `Commit new file`  
+    ![Commit new file](https://github.com/bryack/JSON/blob/main/commit_new_file.png?raw=true)  
+
+17. Синхронизировать внешний и локальный репозиторий JSON
+    `git pull`
+    Synchronize repositories
+    Esc `:wq` Enter
+    `git push`
