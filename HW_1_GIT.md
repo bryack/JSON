@@ -109,7 +109,14 @@
     ` git commit -m "Add new files preferences.json skills.json"`  
     `git push`  
 
-13. На веб интерфейсе создать файл bug_report.json.  
+13. На веб интерфейсе создать файл bug_report.json.
+14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
     Зайти на сайт [github](https://github.com/)  
     Открыть репозиторий `JSON`  
-    
+    Нажать на кнопку `Add file`  
+    ![Add file](https://github.com/bryack/JSON/blob/main/add_file.png?raw=true)  
+    Выбрать в меню `Create new file`  
+    В поле `name` написать bug_report.json  
+    В поле `Commit new file` написать Create bug_report.json  
+    Нажать на кнопку `Commit new file`  
+    ![Commit new file]()
