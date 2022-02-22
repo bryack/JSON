@@ -15,7 +15,7 @@
 
     ![Git Bash Here](https://github.com/bryack/JSON/blob/main/git_bash_here.png?raw=true)
 
-    В терминале прописываю команду для клонирования репозитория и ссылку HTTPS 
+    В терминале прописываю команду для клонирования репозитория и ссылку HTTPS   
     `git clone https://github.com/bryack/JSON.git`
 
 3. Внутри локального JSON создать файл “new.json”.
@@ -24,8 +24,27 @@
     touch new.json
     ```
 
-4. Добавить файл под гит.
+4. Добавить файл под гит.  
 `git add new.json`
 
-5. Закоммитить файл.
+5. Закоммитить файл.  
 `git commit -m "Add file new.json"`
+
+6. Отправить файл на внешний GitHub репозиторий.  
+`git push`
+
+7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.  
+`vim new.json` `i`
+``` json
+{ 
+	"name": "Anna",
+	"age": 32,
+	"number_of_pets": 1,
+    "expected_salary": "1000$"
+}
+```
+`:wq` `Enter`
+
+
+8. Отправить изменения на внешний репозиторий.  
+git commit -am "Edit file new.json"
