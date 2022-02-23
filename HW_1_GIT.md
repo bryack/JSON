@@ -149,8 +149,10 @@
     Нажать на кнопку `Commit new file`  
     ![Commit new file](https://github.com/bryack/JSON/blob/main/commit_new_file.png?raw=true)  
 
-17. Синхронизировать внешний и локальный репозиторий JSON
+17. Синхронизировать внешний и локальный репозиторий JSON  
     `git pull`  
     Synchronize repositories  
     Esc `:wq` Enter  
     `git push`
+
+18. Создать внешний репозиторий c названием XML.
