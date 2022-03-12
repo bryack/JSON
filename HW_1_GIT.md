@@ -43,7 +43,7 @@
         "expected_salary": "1000$"
     }
     ```
-    `:wq` `Enter`
+    Esc `:wq` Enter
 
 
 8. Отправить изменения на внешний репозиторий.  
@@ -117,7 +117,7 @@
     ![Add file](https://github.com/bryack/JSON/blob/main/add_file.png?raw=true)  
     Выбрать в меню `Create new file`  
     В поле `name` написать bug_report.json  
-    В поле `Commit new file` написать Create bug_report.json  
+    В поле `Commit new file` написать Create bug_report.json    
     Нажать на кнопку `Commit new file`  
     ![Commit new file](https://github.com/bryack/JSON/blob/main/commit_new_file.png?raw=true)  
 
@@ -155,4 +155,220 @@
     Esc `:wq` Enter  
     `git push`
 
-18. Создать внешний репозиторий c названием XML.
+18. Создать внешний репозиторий c названием XML.  
+    Зайти на сайт [github](https://github.com/)  
+    Нажать на кнопку   
+    ![New](https://github.com/bryack/JSON/blob/4f209e68a42dea209f36e4192ad5ddb277189202/new_rep.png?raw=true)  
+    В поле "Repository name" написать `XML`  
+    Нажать на кнопку  
+    ![Create repository](https://github.com/bryack/JSON/blob/main/cr_rep.png?raw=true)  
+
+19. Клонировать репозиторий XML на локальный компьютер.  
+
+    Открыть папку D:\YandexDisk\QA\Git
+    Кликнуть правой кнопкой мыши в окне папки
+    Во меню выбрать `Git Bash Here`  
+
+    ![Git Bash Here](https://github.com/bryack/JSON/blob/main/git_bash_here.png?raw=true)
+
+    В терминале прописать команду для клонирования репозитория и ссылку HTTPS   
+    `git clone https://github.com/bryack/XML.git`  
+
+20. Внутри локального XML создать файл “new.xml”.  
+     ``` bash
+    cd XML
+    touch new.xml
+    ```  
+
+21. Добавить файл под гит.  
+    `git add new.xml`  
+
+22. Закоммитить файл.  
+    `git commit -m "Add file new.xml"`  
+
+23. Отправить файл на внешний GitHub репозиторий.  
+    `git push`  
+
+24. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.  
+`vim new.xml` `i`
+    ``` xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <about> 
+	    <name>Anna</name>
+	    <age>32</age>
+	    <number_of_pets>1</number_of_pets>
+        <expected_salary="US dollar">1000</expected_salary>
+    </about>
+    ```
+    Esc `:wq` Enter  
+
+25. Отправить изменения на внешний репозиторий.  
+    `git commit -am "Edit file new.xml"`  
+    `git push`  
+
+26. Создать файл preferences.xml  
+    `touch preferences.xml`  
+
+27. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.  
+     `vim preferences.xml` `i`  
+    ``` xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <preferences> 
+	    <favorite_movie>
+            <question>Your favorite movie?</question>
+            <answer>Scream</answer>
+        </favorite_movie>
+	    <favorite_show>
+            <question>Your favorite TV show?</question>
+            <answer>True Detective</answer>
+        </favorite_show>
+	    <favotite_food>
+            <question>Your favorite food?</question>
+            <answer>Potato</answer>
+        </favotite_food>
+        <favorite_season>
+            <question>Your favorite season?</question>
+            <answer>Summer</answer>
+        </favorite_season>
+        <country_to_visit>
+            <question>What country would you like to visit?</question>
+            <answer>USA</answer>
+        </country_to_visit>
+    </preferences>
+    ```
+    Esc `:wq` Enter  
+
+28. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
+     `vim skills.xml` `i`  
+    ``` xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <skills_list>
+        <skill>
+            <number>1.</number>  
+            <description>Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC</description>  
+        </skill>
+        <skill>
+            <number>2.</number>  
+            <description>Что такое клиент-серверная архитектура</description>  
+        </skill>
+        <skill>
+            <number>3.</number>  
+            <description>HTTP Методы запросов на сервер</description>  
+        </skill>
+        <skill>
+            <number>4.</number>  
+            <description>Коды ответов HTTP сервера</description>  
+        </skill>
+        <skill>
+            <number>5.</number>  
+            <description>Структуры HTTP запросов и ответов</description>  
+        </skill>
+        <skill>
+            <number>6.</number>  
+            <description>Что такое JSON, XML. Их структура</description>  
+        </skill>
+        <skill>
+            <number>7.</number>  
+            <description>Тестирование API через Postman (JS, автотесты API)</description>  
+        </skill>
+        <skill>
+            <number>8.</number>  
+            <description>Снятие и чтение логов c внешнего сервера</description>  
+        </skill>
+        <skill>
+            <number>9.</number>  
+            <description>Снифинг http web трафика через Charles и Fiddler</description>  
+        </skill>
+        <skill>
+            <number>10.</number>  
+            <description>Dev Tools веб браузеров (Google Chrome, FireFox)</description>  
+        </skill>
+        <skill>
+            <number>11.</number>  
+            <description>VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)</description>  
+        </skill>
+        <skill>
+            <number>12.</number>  
+            <description>Мобильное тестирование</description>  
+        </skill>
+        <skill>    
+            <number>13.</number>  
+            <description>Особенность iOS, Android, гайдлайны</description>  
+        </skill>
+        <skill>    
+            <number>14.</number>  
+            <description>Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят)</description>  
+        </skill>
+        <skill>    
+            <number>15.</number>  
+            <description>Сборка Android приложений на Android Studio</description>  
+        </skill>
+        <skill>    
+            <number>16.</number>  
+            <description>ADB (управление андройд девайсами)</description>  
+        </skill>
+        <skill>    
+            <number>17.</number>  
+            <description>Настройка прокси и vpn на iOS и Android</description>  
+        </skill>
+        <skill>    
+            <number>18.</number>  
+            <description>Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android</description>  
+        </skill>
+        <skill>    
+            <number>19.</number>  
+            <description>Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)</description>  
+        </skill>
+        <skill>    
+            <number>20.</number>  
+            <description>Основы bash скриптинг, автоматизация рутинных задач на сервере</description>  
+        </skill>
+        <skill>    
+            <number>21.</number>  
+            <description>Доступ к удалённым серверам</description>  
+        </skill>
+        <skill>    
+            <number>22.</number>  
+            <description>Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</description>  
+        </skill>
+        <skill>    
+            <number>23.</number>  
+            <description>База данных Postgres (установка, настройка и использование)</description>  
+        </skill>
+        <skill>    
+            <number>24.</number>  
+            <description>Нереляционная база данных Redis (установка, настройка и использование)</description>  
+        </skill>
+        <skill>    
+            <number>25.</number>  
+            <description>агрузочное тестирование в Jmeter</description>  
+        </skill>
+        <skill>    
+            <number>26.</number>  
+            <description>Методология разработки Scrum</description>  
+        </skill>
+        <skill>    
+            <number>27.</number>  
+            <description>Python. (Изучение основ. Создание клиент серверного приложения)</description>
+        </skill>
+    </skills_list>
+    ```
+    Esc `:wq` Enter  
+
+29. Сделать коммит в одну строку.  
+    `git add . | git commit -m "Add two new files preferences.xml and skills.xml"`
+
+30. Отправить сразу 2 файла на внешний репозиторий.  
+    `git push`  
+
+31. На веб интерфейсе создать файл bug_report.xml.  
+32. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
+    Зайти на сайт [github](https://github.com/)  
+    Открыть репозиторий `XML`  
+    Нажать на кнопку `Add file`  
+    ![Add file](https://github.com/bryack/JSON/blob/main/add_file.png?raw=true)  
+    Выбрать в меню `Create new file`  
+    В поле `name` написать bug_report.json  
+    В поле `Commit new file` написать Create bug_report.json  
+    Нажать на кнопку `Commit new file`  
+    ![Commit new file](https://github.com/bryack/JSON/blob/main/commit_new_file.png?raw=true) 
