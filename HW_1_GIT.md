@@ -139,7 +139,7 @@
                     },
     "Project": "My Site",
     "Component": "Login",
-    "Build": "1.0"
+    "Build": "1.0",
     "Severity": "Blocker",
     "Priority": "High",
     "Author": "Anna Nurgaleeva",
@@ -157,7 +157,7 @@
 
 # XML  
 
-18. Создать внешний репозиторий c названием XML.  
+1. Создать внешний репозиторий c названием XML.  
     Зайти на сайт [github](https://github.com/)  
     Нажать на кнопку   
     ![New](https://github.com/bryack/JSON/blob/4f209e68a42dea209f36e4192ad5ddb277189202/new_rep.png?raw=true)  
@@ -165,7 +165,7 @@
     Нажать на кнопку  
     ![Create repository](https://github.com/bryack/JSON/blob/main/cr_rep.png?raw=true)  
 
-19. Клонировать репозиторий XML на локальный компьютер.  
+2. Клонировать репозиторий XML на локальный компьютер.  
 
     Открыть папку D:\YandexDisk\QA\Git
     Кликнуть правой кнопкой мыши в окне папки
@@ -199,7 +199,7 @@
 	    <name>Anna</name>
 	    <age>32</age>
 	    <number_of_pets>1</number_of_pets>
-        <expected_salary="US dollar">1000</expected_salary>
+        <expected_salary currency="US dollar">1000</expected_salary>
     </about>
     ```
     Esc `:wq` Enter  
@@ -393,10 +393,11 @@
                 1. Open the Main page
                 2. Click the 'Login' button
             </text>
+        </str>    
         <result>
             <title_second_lvl>Result</title_second_lvl>
             <text>Button 'Login' doesn't click</text>
-        <result>
+        </result>
         <expected_result>
             <title_second_lvl>Expected result</title_second_lvl>
             <text>Button 'Login' is clicked according to requirement №1</text>
@@ -447,7 +448,7 @@
 
 # TXT  
 
-36. Создать внешний репозиторий c названием TXT.  
+1. Создать внешний репозиторий c названием TXT.  
     Зайти на сайт [github](https://github.com/)  
     Нажать на кнопку   
     ![New](https://github.com/bryack/JSON/blob/4f209e68a42dea209f36e4192ad5ddb277189202/new_rep.png?raw=true)  
