@@ -12,9 +12,9 @@
 
 2. Клонировать репозиторий JSON на локальный компьютер.
 
-    Открыть папку D:\YandexDisk\QA\Git
-    Кликнуть правой кнопкой мыши в окне папки
-    Во меню выбрать `Git Bash Here`  
+    Открыть папку D:\YandexDisk\QA\Git  
+    Кликнуть правой кнопкой мыши в окне папки  
+    В меню выбрать `Git Bash Here`    
 
     ![Git Bash Here](https://github.com/bryack/JSON/blob/main/git_bash_here.png?raw=true)
 
@@ -43,7 +43,7 @@
 	    "name": "Anna",
 	    "age": 32,
 	    "number_of_pets": 1,
-        "expected_salary": "1000$"
+        "expected_salary": "1000$",
     }
     ```
     Esc `:wq` Enter
@@ -64,7 +64,7 @@
 	    "favorite_show": "True Detective",
 	    "favotite_food": "Potato",
         "favorite_season": "Summer",
-        "country_to_visit": "USA"
+        "country_to_visit": "USA",
     }
     ```
     Esc `:wq` Enter
@@ -100,7 +100,7 @@
         "24.": "Нереляционная база данных Redis (установка, настройка и использование)",
         "25.": "агрузочное тестирование в Jmeter",
         "26.": "Методология разработки Scrum",
-        "27.": "Python. (Изучение основ. Создание клиент серверного приложения)"
+        "27.": "Python. (Изучение основ. Создание клиент серверного приложения)",
         }
     } 
     ```
@@ -144,7 +144,7 @@
     "Priority": "High",
     "Author": "Anna Nurgaleeva",
     "Sign to": "Developer",
-    "Environment": "Windows 8.1 x64"
+    "Environment": "Windows 8.1 x64",
 }
 ```  
 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
@@ -167,9 +167,9 @@
 
 2. Клонировать репозиторий XML на локальный компьютер.  
 
-    Открыть папку D:\YandexDisk\QA\Git
-    Кликнуть правой кнопкой мыши в окне папки
-    Во меню выбрать `Git Bash Here`  
+    Открыть папку D:\YandexDisk\QA\Git  
+    Кликнуть правой кнопкой мыши в окне папки   
+    В меню выбрать `Git Bash Here`    
 
     ![Git Bash Here](https://github.com/bryack/JSON/blob/main/git_bash_here.png?raw=true)
 
@@ -456,10 +456,10 @@
     Нажать на кнопку  
     ![Create repository](https://github.com/bryack/JSON/blob/main/cr_rep.png?raw=true)  
 
-37. Клонировать репозиторий TXT на локальный компьютер.  
-    Открыть папку D:\YandexDisk\QA\Git
-    Кликнуть правой кнопкой мыши в окне папки
-    Во меню выбрать `Git Bash Here`  
+37. Клонировать репозиторий TXT на локальный компьютер.    
+    Открыть папку D:\YandexDisk\QA\Git  
+    Кликнуть правой кнопкой мыши в окне папки  
+    В меню выбрать `Git Bash Here`    
 
     ![Git Bash Here](https://github.com/bryack/JSON/blob/main/git_bash_here.png?raw=true)
 
@@ -499,7 +499,7 @@
     `touch preferences.txt`  
 
 45. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.  
-     `vim preferences.xml` `i`  
+     `vim preferences.txt` `i`  
     ```
         Your favorite movie? Scream  
         Your favorite TV show? True Detective  
